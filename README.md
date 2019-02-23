@@ -11,5 +11,8 @@ git clone https://github.com/X-Vector/X0R.git
 ```
 python Attack.py
 ```
+# Screenshot :
+
+![X0R](https://i.ibb.co/2cXKzpx/xor.png)
 - Coded By X-Vector
 - [Facebook](https://www.facebook.com/X.Vector1) - [Linkedin](https://www.linkedin.com/in/x-vector/) - [Twitter](https://twitter.com/@XVector11)
