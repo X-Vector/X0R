@@ -56,22 +56,22 @@ banner()
 try:
     plaintext = raw_input("\033[94mEnter Plaintext (key) : \033[94m")
     file_name = raw_input("\033[93mEnter Encrypted File : \033[93m")
-    cookies = file(file_name).read()
-    cookie = bytearray()
-    for i in cookies:
-        cookie.append(i)
+    ciphertext = file(file_name).read()
+    ciphertext2 = bytearray()
+    for i in ciphertext:
+        ciphertext2.append(i)
 
     xor_key = []
     for i in range(len(plaintext)):
-        xor_key.append(chr(cookie[i] ^ ord(plaintext[i])))
+        xor_key.append(chr(ciphertext2[i] ^ ord(plaintext[i])))
 
     key = "".join(xor_key)
 
     print "\033[92m[+] Yor Key is : \033[92m",key
 
-    for i in range(len(cookies)):
-    	cookie[i] ^= ord(key[i%len(key)])
-    print "\033[91m[+] Your Plaintext : \033[91m",cookie
+    for i in range(len(ciphertext)):
+    	ciphertext2[i] ^= ord(key[i%len(key)])
+    print "\033[91m[+] Your Plaintext : \033[91m",ciphertext2
 except IOError:
     print "\n\033[91m[-] The File",file_name,"Not Exist\033[91m"
 except IndexError:
