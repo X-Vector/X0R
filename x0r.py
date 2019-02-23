@@ -1,7 +1,5 @@
 import sys
 import platform,os
-from urllib2 import *
-from platform import system
 
 clear = ""
 if "Windows" in platform.system():
