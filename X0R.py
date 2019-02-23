@@ -144,7 +144,7 @@ try:
 2 - Base64 String Xored
 3 - Hex String Xored
     """
-    choose = int(input(">>> "))
+    choose = int(raw_input(">>> "))
     if choose == 1:
         xor_file()
     elif choose == 2:
@@ -155,5 +155,5 @@ try:
         print "\n\033[91m[-] invalid Choose\033[91m"
 except KeyboardInterrupt:
     print "\n\033[91m[-] GoodBye\033[91m"
-except SyntaxError:
+except:
     print "\n\033[91m[-] invalid Choose\033[91m"
