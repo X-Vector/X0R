@@ -4,12 +4,12 @@
 - if we say your Plaintext is `Flag{W3lc0me_T0_X0R}` you should put a part from Plaintext Like `Flag{` 
 - The Secound Attack `Many Time Pad Attack` Takes  (ecrypted Files , base64 strings , hex strings ) and get The Comman Key Between Them 
 
-# Installing and Open Tool :
-1 - Install Tool : 
+# Downloading and Open Tool :
+1 - Download Tool : 
 ```
 git clone https://github.com/X-Vector/X0R.git
 ```
-2 - Download requirement
+2 - Install requirement
 ```
 sudo pip install requirement.txt
 ```
