@@ -11,7 +11,7 @@ git clone https://github.com/X-Vector/X0R.git
 ```
 2 - Install requirement
 ```
-sudo pip install requirement.txt
+sudo pip install -r requirement.txt
 ```
 3 - Open Tool :
 ```
